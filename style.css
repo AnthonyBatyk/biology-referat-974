@@ -64,14 +64,14 @@ p {
 
 /* Стилі для фото */
 section-photo-formula img {
-  width: 222px;
-  height: 20px;
+  width: 333px;
+  height: 30px;
 }
 
 section-photo img {
   width: 300px; 
   height: auto; 
-  margin-left: 30%;
+  margin-left: 20%;
   margin-top: 0px;
 }
 
