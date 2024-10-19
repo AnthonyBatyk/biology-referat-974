@@ -1,0 +1,93 @@
+/* Основні стилі для тіла сторінки */
+body {
+  font-family: 'Helvetica Neue', Arial, sans-serif;
+  line-height: 1.6;
+  margin: 0;
+  padding: 0;
+  background-color: #f7f7f7; /* Світло-сірий фон */
+  color: #333; /* Темно-сірий текст */
+}
+
+/* Стилі для секцій */
+section {
+  padding: 30px;
+  margin: 20px auto;
+  max-width: 900px;
+  background-color: #ffffff; /* Білий фон секцій */
+  border-radius: 8px; /* Закруглені кути */
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.1); /* М'яка тінь */
+}
+
+/* Заголовки */
+h1 {
+  color: #2f2f2f; /* Темно-сірий колір заголовків */
+  border-bottom: 2px solid #d0d0d0; /* Сіра лінія під заголовком */
+  padding-bottom: 10px;
+  margin-bottom: 20px;
+}
+
+h2 {
+  color: #4f4f4f; /* Середньо-сірий колір підзаголовків */
+  margin-top: 20px;
+}
+
+header h1 {
+  text-align: center;
+  color: #2f2f2f; /* Темно-сірий колір заголовків */
+  padding-bottom: 10px;
+  margin-bottom: 20px;
+  padding: 30px;
+  margin: 20px auto;
+  max-width: 900px;
+  background-color: #ffffff; /* Білий фон секцій */
+  border-radius: 8px; /* Закруглені кути */
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.1); /* М'яка тінь */
+}
+
+/* Відступи та форматування абзаців */
+p {
+  margin: 15px 0;
+}
+
+/* Адаптивний дизайн */
+@media (max-width: 768px) {
+  nav ul li {
+      display: block;
+      margin: 10px 0;
+  }
+
+  section {
+      margin: 10px;
+      padding: 20px;
+  }
+}
+
+/* Стилі для фото */
+section-photo-formula img {
+  width: 111px;
+  height: 10px;
+}
+
+section-photo img {
+  width: 100px; 
+  height: auto; 
+  margin-left: 10%;
+  margin-top: 0px;
+}
+
+section-ul ul {
+  list-style-type: disc; /* Використовуємо стандартні крапки */
+}
+
+a {
+  font-weight: bold;
+  background-color: #000000;
+  color: white;
+  cursor: pointer;
+  padding: 10px 20px;
+  margin: 30%;
+  border-radius: 9px;
+  text-decoration: none;
+  transition: background-color 0.3s ease;
+  font-family: sans-serif;
+}
