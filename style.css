@@ -64,14 +64,14 @@ p {
 
 /* Стилі для фото */
 section-photo-formula img {
-  width: 111px;
-  height: 10px;
+  width: 222px;
+  height: 20px;
 }
 
 section-photo img {
-  width: 100px; 
+  width: 300px; 
   height: auto; 
-  margin-left: 10%;
+  margin-left: 30%;
   margin-top: 0px;
 }
 
@@ -85,7 +85,7 @@ a {
   color: white;
   cursor: pointer;
   padding: 10px 20px;
-  margin: 30%;
+  margin: 25%;
   border-radius: 9px;
   text-decoration: none;
   transition: background-color 0.3s ease;
